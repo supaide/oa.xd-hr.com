@@ -1,0 +1,6 @@
+home:
+  alias: /
+
+login:
+  meta:
+    login: false

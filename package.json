@@ -1,0 +1,64 @@
+{
+  "name": "oa.xd-hr.com",
+  "version": "1.0.0",
+  "description": "云OA",
+  "author": "cyij <cyij2006@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "iview": "^2.8.0",
+    "spd-page-manage": "^1.0.0",
+    "spd-webutil": "^1.0.0",
+    "vue": "^2.5.13",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-component": "^0.10.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chalk": "^2.0.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "ora": "^1.2.0",
+    "postcss-import": "^11.0.0",
+    "postcss-loader": "^2.0.8",
+    "rimraf": "^2.6.0",
+    "semver": "^5.3.0",
+    "shelljs": "^0.7.8",
+    "url-loader": "^0.6.2",
+    "vue-loader": "^13.5.0",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.9",
+    "iview-loader": "^1.0.0",
+    "portfinder": "^1.0.13",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.9.1",
+    "webpack-dev-server": "^2.9.5",
+    "webpack-merge": "^4.1.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.30.1",
+    "optimize-css-assets-webpack-plugin": "^3.2.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
