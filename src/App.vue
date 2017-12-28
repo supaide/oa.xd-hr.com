@@ -59,7 +59,8 @@ export default {
       ]},
       {name: '公司管理', path: 'enterprise', icon: 'social-buffer', childs: [
         {name: '组织架构', path: 'enterprise/department'},
-        {name: '职位/职级', path: 'enterprise/position'}
+        {name: '职位/职级', path: 'enterprise/position'},
+        {name: '员工管理', path: 'enterprise/staffs'},
       ]},
       {name: '员工之家', path: 'family', icon: 'ios-people', childs: [
         {name: '档案管理', path: 'family/archives'},

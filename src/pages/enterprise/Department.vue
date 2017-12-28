@@ -1,7 +1,7 @@
 <template>
 <Row>
   <Col span="10" class="dept-left">
-    <department company="A科技有限公司" @on-select="selDept" ref="department" />
+    <department company="ABC科技有限公司" @on-select="selDept" ref="department" />
   </Col>
   <Col span="13" offset="1">
     <Card v-if="showDeptSetting">
